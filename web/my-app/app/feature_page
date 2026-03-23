@@ -1,0 +1,53 @@
+{/* FEATURE 1 */}
+      <section className="h-screen flex items-center justify-end pr-24">
+        <FeatureStackCard
+          title="Disaster Map"
+          description="Live disaster zones and severity mapping."
+          href="/map"
+        />
+      </section>
+
+      {/* FEATURE 2 */}
+      <section className="h-screen flex items-center justify-end pr-24">
+        <FeatureStackCard
+          title="SOS & Helplines"
+          description="Emergency contacts and SOS assistance."
+          href="/helpline"
+        />
+      </section>
+
+      {/* FEATURE 3 */}
+      <section className="h-screen flex items-center justify-end pr-24">
+        <FeatureStackCard
+          title="Weather & Risk"
+          description="Weather alerts and disaster probability."
+          href="/dashboard"
+        />
+      </section>
+
+      {/* FEATURE 4 */}
+      <section className="h-screen flex items-center justify-end pr-24">
+        <FeatureStackCard
+          title="Incident Reports"
+          description="Photo & video based reporting."
+          href="/report"
+        />
+      </section>
+
+      {/* FEATURE 5 */}
+      <section className="h-screen flex items-center justify-end pr-24">
+        <FeatureStackCard
+          title="Emergency Alerts"
+          description="Critical alerts and warnings."
+          href="/dashboard"
+        />
+      </section>
+
+      {/* FEATURE 6 */}
+      <section className="h-screen flex items-center justify-end pr-24">
+        <FeatureStackCard
+          title="Global Monitoring"
+          description="Worldwide disaster awareness."
+          href="/dashboard"
+        />
+      </section>
